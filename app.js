@@ -1,4 +1,8 @@
 //app.js
-const greeting = require('./src/greeting');
+const app = require("./src/api");
 
-console.log(greeting('Totoro'));
+const PORT = process.env.PORT ||  3000;
+
+app.listen(PORT, () => {
+    console.log("Server running on port " + PORT);
+});
