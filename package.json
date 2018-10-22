@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Findebow/API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Findebow/API/issues"
+  },
+  "homepage": "https://github.com/Findebow/API#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
