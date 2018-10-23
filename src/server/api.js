@@ -1,12 +1,11 @@
 // src/api.js
-const express = require("express");
-const app = express();
-const greeting = require("./greeting");
+const express = require("express")
+const router = express.Router()
 
-app.get("/greeting/:name", (req, res) => {
+router.get("/greeting/:name", (req, res) => {
     res.status = 200;
     req.params.name;
     res.send({ greeting: "Hello, " + req.params.name + "!" })
 });
 
-module.exports = app;
+module.exports = router;
